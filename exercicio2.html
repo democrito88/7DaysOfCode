@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="./node_modules/jquery/dist/jquery.js"></script>
+    <script src="./node_modules/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="./node_modules/bootstrap-icons/font/bootstrap-icons.css"></script>
+    <script src="js/exercicio2.js"></script>
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <title>Exercício 2 - #7DaysOfCode</title>
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="row justify-contents-center p-lg-5 bg-secondary">
+            <h3 class="text-center text-white">Exercício 2</h3>
+            <p class="text-center text-white">
+                <a style="text-decoration: none"  href="http://localhost/alura/7DaysOfCode/exercicio1.html">&lt;&lt; exercício 1 </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none"  href="http://localhost/alura/7DaysOfCode/">
+                    <i class="bi bi-house-fill"></i>
+                </a>
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a style="text-decoration: none"  href="http://localhost/alura/7DaysOfCode/exercicio3.html">exercício 3 &gt;&gt;</a>
+            </p>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body">
+                        <form action="" method="get">
+                            <h4 class="text-center">Por favor, preencha o formulário</h4>
+                            <div class="form-group">
+                                <label for="" class="form-label">Nome</label>
+                                <input type="text" class="form-control" name="nome">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="form-label">Idade</label>
+                                <input type="text" class="form-control" name="idade">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="form-label">Linguagem de programação que gostaria de
+                                    aprender</label>
+                                <input type="text" class="form-control" name="linguagem">
+                            </div>
+                            <div class="form-group">
+                                <label for="" class="form-label">E você gosta da linguagem que está aprendendo?</label>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gosta"
+                                        id="flexRadioDefault1" value="sim">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Sim
+                                    </label>
+                                </div>
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="gosta"
+                                        id="flexRadioDefault2" value="nao" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        Não
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group p-3">
+                                <button class="btn btn-primary" type="submit">Submeter</button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card">
+                    <div class="card-body" id="resposta">
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid " style="height:250px; background-image: linear-gradient(#6c757d, white);"></div>
+</body>
+
+</html>
