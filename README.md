@@ -1,6 +1,6 @@
 # Minha solução para o 7 days of code
 
-Projeto feito em HTML e Javascript respondendo os desafios do #7DaysOfCode da Alura
+Projeto feito em HTML e Javascript respondendo os desafios do #7DaysOfCode da Alura.  O objetivo deste projeto é praticar funções básicas de HTML, CSS e Javascript.
 
 ### Autor
 <a href="https://github.com/democrito88">
